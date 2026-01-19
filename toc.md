@@ -17,9 +17,10 @@
 
 ### 四、软件开发工具链
 1. [软件工具](./category/4.software_development_toolchain/software_tool.md)
-1. [硬件工具](./category/4.software_development_toolchain/hardware_tool.md)
+2. [硬件工具](./category/4.software_development_toolchain/hardware_tool.md)
 
 ### 五、软件架构与层次
+1. [Linux系统](./category/5.software_architecture&layers/linux.md)
 
 ### 六、指令集与架构标准
 

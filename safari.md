@@ -14,6 +14,9 @@
         1. 如果没有`pinctrl`命令，则需要先安装该工具。[`pinctrl`](https://blog.csdn.net/weixin_65147589/article/details/141595836)
     2. [参考方法1](https://forums.raspberrypi.com/viewtopic.php?t=359132)
 3. 在树莓派5 上，主 UART(primary UART) 位于调试头(Debug header，也就是Debug Probe所连接的[3pin JST-SH](./category/1.core_hardware_components/hardware_connection.md###JST连接器)接口)
+4. [ 修改文件 ](https://www.chenxublog.com/2024/05/10/raspberry-pi-5-uart-ssh-no-data.html)
+    1. `/boot/firmware/cmdline.txt`
+    2. `/boot/firmware/config.txt`
 
 
 ### Exlink串口使用方法
