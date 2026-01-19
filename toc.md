@@ -5,7 +5,7 @@
 ## 嵌入式观念及术语
 
 ### 一、核心硬件组件
-1. [主控核心](./category/1.core_hardware_components/chipset.md)
+1. [主控核心](./category/1.core_hardware_components/main_control_core.md)
 
 ### 二、硬件接口与外设
 1. [通用I/O接口](./category/2.hardware_interface&peripherals/general‑purpose_I&O_interface.md)
