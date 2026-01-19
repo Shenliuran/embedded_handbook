@@ -13,7 +13,7 @@
     1. 使用`pinctrl`配置树莓派5的GPIO功能: `pinctrl set 10 op       Set GPIO 10 to be an output`
         1. 如果没有`pinctrl`命令，则需要先安装该工具。[`pinctrl`](https://blog.csdn.net/weixin_65147589/article/details/141595836)
     2. [参考方法1](https://forums.raspberrypi.com/viewtopic.php?t=359132)
-
+3. 在树莓派5 上，主 UART(primary UART) 位于调试头(Debug header，也就是Debug Probe所连接的[3pin JST-SH](./category/1.core_hardware_components/hardware_connection.md###JST连接器)接口)
 
 
 ### Exlink串口使用方法
