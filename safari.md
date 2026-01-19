@@ -9,6 +9,10 @@
         1. 树莓派Pico的 UART 通信将由调试探针转发到计算机，并显示为 *CDC UART*
         2. 连接到树莓派5的Debug Probe 默认情况下，它在 /dev/ttyAMA0（别名为/dev/serial0）提供115,200波特率8数据位，1停止位，无校验位的连接
         3. 树莓派5在raspi-config启用串行控制台将在 `/dev/ttyAMA0` 设备对应的 *新UART口* 上启用串行控制台。而旧型号则在GPIO14和15上启用串行控制台
+2. 使用GPIO 14/15(Pin 8/10)
+    1. 使用`pinctrl`配置树莓派5的GPIO功能: `pinctrl set 10 op       Set GPIO 10 to be an output`
+        1. 如果没有`pinctrl`命令，则需要先安装该工具。[`pinctrl`](https://blog.csdn.net/weixin_65147589/article/details/141595836)
+    2. [参考方法1](https://forums.raspberrypi.com/viewtopic.php?t=359132)
 
 
 
