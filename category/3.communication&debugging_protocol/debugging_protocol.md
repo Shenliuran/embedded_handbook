@@ -1,4 +1,4 @@
-# 常见协议
+# 调试协议
 
 ---
 ## J
@@ -11,9 +11,4 @@
 
 ### SWD
 + Serial Wire Debug(串行线调试)
----
-## U
 
-### UART
-+ Universal Asynchronous Receiver/Transmitte( 通用异步收发器 )
-+ 也就是 *串口*
