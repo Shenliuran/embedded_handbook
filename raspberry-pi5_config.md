@@ -19,3 +19,6 @@ git clone --branch master --depth 1 https://gh-proxy.org/https://github.com/nelv
 3. 将解压后的文件移动到系统根目录: `mv ./squashfs-root /`
 4. 在`/opt`文件夹下创建nvim软连接: `ln -s /squashfs-root/usr/bin/nvim /opt/nvim`
 5. 在.bashrc中，将`/opt`加入到路径中: `export PATH=$PATH:/opt`
+
+## 使用串口登录树莓派
++ [参考方法](https://www.chenxublog.com/2024/05/10/raspberry-pi-5-uart-ssh-no-data.html)
