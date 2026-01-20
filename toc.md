@@ -13,7 +13,7 @@
 
 ### 三、通信与调试协议
 1. [通讯协议](./category/3.communication&debugging_protocol/communication_protocol.md)
-2. [调试协议](./category/3.communication&debugging_protocol/debugging_protocol.md`)
+2. [调试协议](./category/3.communication&debugging_protocol/debugging_protocol.md)
 
 ### 四、软件开发工具链
 1. [软件工具](./category/4.software_development_toolchain/software_tool.md)
