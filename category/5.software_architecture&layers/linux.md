@@ -13,6 +13,28 @@
 
 ### Filesystem
 + [参考文档](https://www.cnblogs.com/it-coder/p/19082023)
+```plaintext
+/                  Root Directory
+├── /boot          Boot Loader Files
+├── /etc           Configuration Files
+├── /home          User Home Directories
+├── /root          Root Home Directories
+├── /opt           Third-Party Applications
+├── /dev           Device Files
+├── /var           Variable Files
+├── /bin           User Binaries
+├── /sbin          System Binaries
+├── /usr           User Applications
+├── /proc          Process Information
+├── /mnt           Mount Dirctory
+├── /sys           Virtual File System
+├── /media         Removable Devices
+├── /run           Temporaray File System
+├── /tmp           Temporaray Files
+├── /lost+found    Recover Broken Files
+├── /lib           System Libraries
+└── /srv           Service Data Directory
+```
 
 #### FHS
 + Filesystem Hierarchy Standard
