@@ -13,6 +13,8 @@
 
 ### Filesystem
 + [参考文档](https://www.cnblogs.com/it-coder/p/19082023)
++ 使用`man 5 fs`查看Linux 文件系统类型
+
 ```plaintext
 /                  Root Directory
 ├── /boot          Boot Loader Files
