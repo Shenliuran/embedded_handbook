@@ -6,8 +6,9 @@ theme:
   name: readthedocs
   language: zh
 
-watch:
-  - docs
+plugins:
+  - search
+  - mermaid2
 
 nav:
   - 首页: index.md
