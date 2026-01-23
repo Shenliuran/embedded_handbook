@@ -11,7 +11,7 @@ watch:
 
 nav:
   - 首页: index.md
-  - 范畴:
+  - 领域:
     - 核心硬件组件:
       - 主控核心: ./category/1.core_hardware_components/main_control_core.md
       - 硬件接口: ./category/1.core_hardware_components/hardware_connection.md
@@ -29,7 +29,9 @@ nav:
     # - 指令集与架构标准:
     # - 调试与测试方法:
     # - 应用领域与场景:
-  - Exlink工具使用方法: Exlink.md
   - 树莓派相关:
     - 配置文件: raspberry-pi5_config.md
-  - 问题分析工具: safari.md
+  - 问题分析工具:
+    - Safari: safari.md
+  - 嵌入式工具:
+    - Exlink工具使用方法: Exlink.md
