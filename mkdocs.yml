@@ -1,0 +1,35 @@
+site_name: Embedded Handbook
+site_author: Liuran Shen
+
+
+theme:
+  name: readthedocs
+  language: zh
+
+watch:
+  - docs
+
+nav:
+  - 首页: index.md
+  - 范畴:
+    - 核心硬件组件:
+      - 主控核心: ./category/1.core_hardware_components/main_control_core.md
+      - 硬件接口: ./category/1.core_hardware_components/hardware_connection.md
+    - 硬件接口与外设:
+      - 电器特性标准: ./category/2.hardware_interface&peripherals/electrical_characteristics_standard.md
+      - 通用I/O接口: ./category/2.hardware_interface&peripherals/general‑purpose_I&O_interface.md
+    - 通信与调试协议:
+      - 通讯协议: ./category/3.communication&debugging_protocol/communication_protocol.md
+      - 调试协议: ./category/3.communication&debugging_protocol/debugging_protocol.md
+    - 软件开发工具链:
+      - 软件工具: ./category/4.software_development_toolchain/software_tool.md
+      - 硬件工具: ./category/4.software_development_toolchain/hardware_tool.md
+    - 软件架构与层次:
+      - Linux系统: ./category/5.software_architecture&layers/linux.md
+    # - 指令集与架构标准:
+    # - 调试与测试方法:
+    # - 应用领域与场景:
+  - Exlink工具使用方法: Exlink.md
+  - 树莓派相关:
+    - 配置文件: raspberry-pi5_config.md
+  - 问题分析工具: safari.md
