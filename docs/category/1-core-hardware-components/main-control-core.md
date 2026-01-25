@@ -8,12 +8,6 @@
 
 ---
 
-## E
-
-### EEPROM
-+ Electrically Erasable Programmable Read-Only Memory(带电可擦可编程只读存储器)
-
----
 ## N
 
 ### Northbridge
@@ -25,6 +19,7 @@
 ### Southbridge
 + 南桥(芯片)
 + 负责与低速设备(如硬盘、USB等)进行通信，处理I/O管理，通常位于主板的下方
+
 
 #### RP1
 + Raspberry Pi 1st-party I/O controller

@@ -3,6 +3,7 @@
 ## J
 
 ### JST连接器
+
 + JST连接器是日本压着端子制造株式会社(Japan Solderless Terminal)生产的电连接器
 + 常见型号(JST-XX):
     1. SH系列: 1.0mm间距

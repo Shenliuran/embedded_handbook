@@ -1,7 +1,6 @@
 site_name: Embedded Handbook
 site_author: Liuran Shen
 
-
 theme:
   name: readthedocs
   language: zh
@@ -14,24 +13,29 @@ nav:
   - 首页: index.md
   - 领域:
     - 核心硬件组件:
-      - 主控核心: ./category/1.core_hardware_components/main_control_core.md
-      - 硬件接口: ./category/1.core_hardware_components/hardware_connection.md
+      - 主控核心: ./category/1-core-hardware-components/main-control-core.md
+      - 硬件接口: ./category/1-core-hardware-components/hardware-connection.md
+      - 存储设备: ./category/1-core-hardware-components/storage-device.md
     - 硬件接口与外设:
-      - 电器特性标准: ./category/2.hardware_interface&peripherals/electrical_characteristics_standard.md
-      - 通用I/O接口: ./category/2.hardware_interface&peripherals/general‑purpose_I&O_interface.md
+      - 电器特性标准: ./category/2-hardware-interface-peripherals/electrical-spec.md
+      - 通用I/O接口: ./category/2-hardware-interface-peripherals/gpio-interface.md
     - 通信与调试协议:
-      - 通讯协议: ./category/3.communication&debugging_protocol/communication_protocol.md
-      - 调试协议: ./category/3.communication&debugging_protocol/debugging_protocol.md
+      - 通讯协议: 
+        - UART: ./category/3-communication-debugging-protocol/communication-protocol/uart.md
+        - USB: ./category/3-communication-debugging-protocol/communication-protocol/usb.md
+      - 调试协议: ./category/3-communication-debugging-protocol/debugging-protocol.md
     - 软件开发工具链:
-      - 软件工具: ./category/4.software_development_toolchain/software_tool.md
-      - 硬件工具: ./category/4.software_development_toolchain/hardware_tool.md
+      - 软件工具: ./category/4-software-development-toolchain/software-tool.md
+      - 硬件工具: ./category/4-software-development-toolchain/hardware-tool.md
     - 软件架构与层次:
-      - Linux系统: ./category/5.software_architecture&layers/linux.md
+      - Linux系统层:
+        - Linux文件系统: ./category/5-software-architecture-layers/linux-system-layer/linux-file-system.md
+        - Linux GPIO 命令: ./category/5-software-architecture-layers/linux-system-layer/linux-gpio-cmds.md
     # - 指令集与架构标准:
     # - 调试与测试方法:
     # - 应用领域与场景:
   - 树莓派相关:
-    - 配置文件: raspberry-pi5_config.md
+    - 配置文件: raspberry-pi5-config.md
   - 问题分析工具:
     - Safari: safari.md
   - 嵌入式工具:
