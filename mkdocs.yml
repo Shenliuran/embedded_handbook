@@ -36,3 +36,5 @@ nav:
     - Safari: safari.md
   - 嵌入式工具:
     - Exlink工具使用方法: Exlink.md
+  - 嵌入式学习:
+    - 路线图: roadmap.md
