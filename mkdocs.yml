@@ -16,6 +16,7 @@ nav:
       - 主控核心: ./category/1-core-hardware-components/main-control-core.md
       - 硬件接口: ./category/1-core-hardware-components/hardware-connection.md
       - 存储设备: ./category/1-core-hardware-components/storage-device.md
+      - 电子元件标识方法: ./category/1-core-hardware-components/electronic-components-marking.md
     - 硬件接口与外设:
       - 电器特性标准: ./category/2-hardware-interface-peripherals/electrical-spec.md
       - 通用I/O接口: ./category/2-hardware-interface-peripherals/gpio-interface.md
