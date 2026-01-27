@@ -9,6 +9,12 @@ plugins:
   - search
   - mermaid2
 
+markdown_extensions:
+  - pymdownx.arithmatex
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 nav:
   - 首页: index.md
   - 领域:
