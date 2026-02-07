@@ -42,7 +42,7 @@ nav:
     - 调试与测试方法: ./category/7-debugging-testing-methods/hardware-debug.md
     # - 应用领域与场景:
   - 树莓派相关:
-    - 配置文件: raspberry-pi5-config.md
+    - 配置文件: ./raspberry-pi/raspberry-pi5-config.md
   - 问题分析工具:
     - Safari: safari.md
   - 嵌入式工具:
