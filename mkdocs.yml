@@ -4,13 +4,20 @@ site_author: Liuran Shen
 theme:
   name: readthedocs
   language: zh
+  icon:
+    admontion:
+      <type>: <icon>
 
 plugins:
   - search
   - mermaid2
+  - gh-admonitions
 
 markdown_extensions:
   - pymdownx.arithmatex
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
