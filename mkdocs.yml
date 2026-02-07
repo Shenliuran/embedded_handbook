@@ -50,6 +50,8 @@ nav:
     # - 应用领域与场景:
   - 树莓派相关:
     - 配置文件: ./raspberry-pi/raspberry-pi5-config.md
+    - 树莓派项目:
+      - DHT11温湿度传感器: ./raspberry-pi/projects/DHT11.md
   - 问题分析工具:
     - Safari: safari.md
   - 嵌入式工具:
