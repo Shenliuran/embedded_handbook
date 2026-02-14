@@ -45,6 +45,7 @@ nav:
       - Linux系统层:
         - Linux文件系统: ./category/5-software-architecture-layers/linux-system-layer/linux-file-system.md
         - Linux 引脚管理: ./category/5-software-architecture-layers/linux-system-layer/linux-pin-management.md
+        - 启动阶段的固件: ./category/5-software-architecture-layers/firmware-boot.md
     # - 指令集与架构标准:
     - 调试与测试方法: ./category/7-debugging-testing-methods/hardware-debug.md
     # - 应用领域与场景:
