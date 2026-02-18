@@ -43,3 +43,7 @@ enable_uart=1
 dtparam=uart0
 dtparam=uart0_console
 ```
+
+## 使用网线登录树莓派
++ [参考文档](https://www.cnblogs.com/FHC1994/p/9142569.html)
++ 在登录树莓派后，可以配置WIFI登录
